@@ -69,13 +69,20 @@ export default function Start() {
 
           <h4>
             This was a Sunday afternoon project into{" "}
-            <a className="link" href="https://tonejs.github.io/">
+            <a
+              className="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://tonejs.github.io/"
+            >
               tone.js
             </a>
             . The code's messy but if you want to see it you can{" "}
             <a
               className="link"
               href="https://github.com/slarsendisney/sld-starwars"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               check it on github
             </a>
