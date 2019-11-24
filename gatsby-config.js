@@ -2,8 +2,8 @@ const path = require(`path`);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Melon`,
-    description: `A boilerplate by SLD`,
+    title: `STAR WARS`,
+    description: `A tone.js experiment.`,
     author: `@sld`
   },
   plugins: [

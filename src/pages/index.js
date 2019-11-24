@@ -14,11 +14,7 @@ export default function Start() {
       },
       Music.notes,
       "4n"
-    );
-
-    synthPart.humanise = "32n";
-    synthPart.start();
-    Tone.Transport.loop = false;
+    ).start();
     Tone.Transport.start();
   };
   return (
@@ -26,8 +22,23 @@ export default function Start() {
       <SEO title="STAR WARS" />
       <div className="row">
         <div className="col-xs-12">
-          <pre className="margin-auto" style={{ width: 420 }}>
-            <code className="is-orange">{`
+          <div
+            className=""
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center"
+            }}
+          >
+            <pre
+              style={{
+                maxWidth: 420,
+                width: "99vw",
+                marginLeft: -80,
+                marginRight: -70
+              }}
+            >
+              <code className="is-orange">{`
                          .-.
                          |_:_|
                         /(_Y_)\\
@@ -55,7 +66,8 @@ export default function Start() {
                Imperial March with tone.js
              ------------------------------
   `}</code>
-          </pre>
+            </pre>
+          </div>
         </div>
         <div className="col-xs-12 text-align-center">
           <button
@@ -68,7 +80,7 @@ export default function Start() {
           </button>
 
           <h4>
-            This was a Sunday afternoon project into{" "}
+            This was a Sunday afternoon project experimenting with{" "}
             <a
               className="link"
               target="_blank"
