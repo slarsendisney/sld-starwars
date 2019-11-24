@@ -73,7 +73,10 @@ export default function Start() {
               tone.js
             </a>
             . The code's messy but if you want to see it you can{" "}
-            <a className="link" href="www.google.com">
+            <a
+              className="link"
+              href="https://github.com/slarsendisney/sld-starwars"
+            >
               check it on github
             </a>
             .
